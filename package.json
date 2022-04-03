@@ -1,6 +1,6 @@
 {
   "name": "logseq-searchable",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Image OCR and search",
   "main": "dist/index.html",
   "targets": {
