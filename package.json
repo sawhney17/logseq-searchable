@@ -1,7 +1,7 @@
 {
-  "name": "logseq-ocr-plugin",
+  "name": "logseq-searchable",
   "version": "1.0",
-  "description": "Starter Plugin",
+  "description": "Image OCR and search",
   "main": "dist/index.html",
   "targets": {
     "main": false
@@ -18,8 +18,8 @@
     "tesseract.js": "^2.1.5"
   },
   "logseq": {
-    "id": "logseq-ocr-plugin",
-    "title": "logseq-ocr-plugin",
+    "id": "logseq-searchable",
+    "title": "logseq-searchable",
     "icon": "./icon.png"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-# Logaseq OCR Plugin
+# Logaseq Searchable
 
 A quick utility to conduct OCR parsing on images and insert the result as a property. Allows images to be indexable and therefore searchable by logseq similar to evernote. 
 
