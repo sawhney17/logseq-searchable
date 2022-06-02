@@ -15,7 +15,6 @@ async function convertImageToText(e) {
   console.log(path)
   let text = (await logseq.Editor.getBlock(e.uuid)).content
   let formattedText = text.replace(`../assets/`, `${path}/assets/`)
-  console.log(formattedText)
   let link = formattedText.match(/(?<=!\[.*?\])\((.*?)\)/g)[0]
   //remove the first and last character from link
   link = link.substring(1, link.length - 1)
